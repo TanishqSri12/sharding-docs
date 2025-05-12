@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout
       title="Docs"
-      description="A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy."
+      description="happy."
     >
       <Homepage />
     </Layout>

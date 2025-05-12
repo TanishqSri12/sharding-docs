@@ -44,7 +44,7 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-background-color: theme(colors.neutral.100);
-  --ifm-color-primary: #098ea0;
+  --ifm-color-primary: #ff9700;
   --ifm-color-primary-dark: #006553;
   --ifm-color-primary-darker: #004b3c;
   --ifm-color-primary-darkest: #00392c;
@@ -76,7 +76,7 @@ html[data-theme="dark"] {
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
   --ifm-background-color: theme(colors.neutral.900);
-  --ifm-color-primary: theme(colors.teal.400);
+  --ifm-color-primary: #ff9700;
   --ifm-color-primary-dark: theme(colors.teal.500);
   --ifm-color-primary-darker: theme(colors.teal.600);
   --ifm-color-primary-darkest: theme(colors.teal.800);

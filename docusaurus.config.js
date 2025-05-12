@@ -10,7 +10,7 @@ import remarkMath from "remark-math";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "MultiversX Docs",
+  title: "Intelchain Docs",
   titleDelimiter: "•",
   tagline:
     "A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy.",
@@ -24,8 +24,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "multiversx", // Usually your GitHub org/user name.
-  projectName: "mx-docs", // Usually your repo name.
+  organizationName: "colibyte", // Usually your GitHub org/user name.
+  projectName: "sharding-docs", // Usually your repo name.
 
   onBrokenLinks: "log",
   onBrokenMarkdownLinks: "log",
@@ -69,10 +69,10 @@ const config = {
           sidebarPath: "./sidebars.js",
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
-          showLastUpdateTime: true,
+          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/multiversx/mx-docs/edit/development",
+         
         },
         blog: false,
         theme: {
@@ -110,8 +110,8 @@ const config = {
       navbar: {
         logo: {
           alt: "MultiversX Docs",
-          src: "img/logo_dark.svg",
-          srcDark: "img/logo.svg",
+          src: "img/theme/intelchain-logo.png",
+          srcDark: "img/theme/intelchain-logo.png",
         },
         items: [
           {
@@ -199,7 +199,7 @@ const config = {
       footer: {
         style: "light",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} MultiversX. All rights reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} All rights reserved.`,
       },
       prism: {
         theme: prismThemes.vsLight,

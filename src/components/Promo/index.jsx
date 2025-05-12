@@ -11,8 +11,8 @@ const Promo = () => {
   const { promo } = homepage;
 
   return (
-    <div className="promo relative h-[706px] rounded-[40px] flex-col justify-center items-center gap-32 inline-flex overflow-hidden">
-      <video
+    <div className=" relative h-[706px] rounded-[40px] flex-col justify-center items-center gap-32 inline-flex overflow-hidden">
+      {/* <video
         id="promo-video"
         loop
         playsInline
@@ -22,15 +22,22 @@ const Promo = () => {
       >
         <source src="videos/sov-animation-loop-header-transcode.mp4" />
         <source src="videos/sov-animation-loop-header-transcode.webm" />
-      </video>
+      </video> */}
       <div className="absolute top-[40px] sm:top-auto sm:bottom-auto z-1 h-[326px] flex-col justify-start items-center lg:gap-14 inline-flex">
         <div className="p-10 flex-col justify-start items-center gap-4 flex rounded-[40px] promo-shadow">
-          <div className="h-7 px-[7px] bg-teal-400/10 rounded-[48px] border border-solid border-green-600/70 backdrop-blur-[36px] justify-center items-center inline-flex">
+          {/* <div className="h-7 px-[7px] bg-teal-400/10 rounded-[48px] border border-solid border-green-600/70 backdrop-blur-[36px] justify-center items-center inline-flex">
             <div className="self-stretch px-1.5 justify-center items-center gap-2 flex">
               <div className="text-center text-white dark:text-teal-200 dark:opacity-60 text-base font-normal leading-none">
                 {promo.tag}
               </div>
             </div>
+          </div> */}
+          {/* <div className="h-7 px-[7px] bg-teal-400/10 rounded-[48px] border border-solid border-green-600/70 backdrop-blur-[36px] justify-center items-center inline-flex"> */}
+            <div className="self-stretch px-1.5 justify-center items-center gap-2 flex">
+              <div className="text-center text-white dark:text-teal-200 dark:opacity-60 text-base font-normal leading-none">
+                {promo.tag}
+              </div>
+            {/* </div> */}
           </div>
           <div className="lg:w-[686px] text-center text-neutral-200 font-medium text-[42px] leading-[46px] lg:text-[56px] lg:leading-[56px]">
             {promo.title}

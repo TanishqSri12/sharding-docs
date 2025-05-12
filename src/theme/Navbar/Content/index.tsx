@@ -71,22 +71,22 @@ export default function NavbarContent(): JSX.Element {
         <>
           {!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
           <NavbarLogo />
-          <NavbarItems items={leftItems} />
+          {/* <NavbarItems items={leftItems} /> */}
         </>
       }
       right={
         // TODO stop hardcoding items?
         // Ask the user to add the respective navbar items => more flexible
         <>
-          <NavbarItems items={rightItems} />
+          {/* <NavbarItems items={rightItems} /> */}
 
           <NavbarColorModeToggle className={styles.colorModeToggle} />
-          <AskAiButton />
-          {!searchBarItem && (
+         
+          {/* {!searchBarItem && (
             <NavbarSearch>
               <SearchBar />
             </NavbarSearch>
-          )}
+          )} */}
         </>
       }
     />

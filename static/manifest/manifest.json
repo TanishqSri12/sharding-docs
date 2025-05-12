@@ -1,13 +1,13 @@
 {
-  "name": "MultiversX • Docs",
-  "short_name": "MultiversX Docs",
+  "name": "Intelchain Doc",
+  "short_name": "ITC Docs",
   "dir": "ltr",
   "lang": "en",
   "start_url": "/",
   "display": "minimal-ui",
   "background_color": "#0e0e0e",
   "theme_color": "#0e0e0e",
-  "description": "A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy.",
+  "description": "A fast and secure blockchain ",
   "related_applications": [
     {
       "platform": "webapp",
@@ -36,14 +36,14 @@
   ],
   "screenshots": [
     {
-      "src": "/img/favicons/preview-dark.jpg",
+      "src": "",
       "sizes": "1280x1280",
       "type": "image/jpg",
       "form_factor": "wide",
       "label": "MultiversX Docs Dark Mode"
     },
     {
-      "src": "/img/favicons/preview-light.jpg",
+      "src": "",
       "sizes": "1280x1280",
       "type": "image/jpg",
       "label": "MultiversX Docs Light Mode"
