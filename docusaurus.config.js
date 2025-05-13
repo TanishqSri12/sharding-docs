@@ -116,24 +116,24 @@ const config = {
         items: [
           {
             href: "/developers/overview",
-            label: "Developers",
+            label: "Intelchain",
             position: "left",
           },
           {
-            href: "/validators/overview",
-            label: "Validators",
+            href: "/developers/overview",
+            label: "Sharding",
             position: "left",
           },
-          {
-            href: "/integrators/overview",
-            label: "Integrate",
-            position: "left",
-          },
-          {
-            href: "/learn/architecture-overview",
-            label: "Learn",
-            position: "left",
-          },
+          // {
+          //   href: "/integrators/overview",
+          //   label: "Integrate",
+          //   position: "left",
+          // },
+          // {
+          //   href: "/learn/architecture-overview",
+          //   label: "Learn",
+          //   position: "left",
+          // },
           {
             href: "https://github.com/multiversx",
             label: "GitHub",

@@ -71,7 +71,7 @@ export default function NavbarContent(): JSX.Element {
         <>
           {!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
           <NavbarLogo />
-          {/* <NavbarItems items={leftItems} /> */}
+          <NavbarItems items={leftItems} />
         </>
       }
       right={

@@ -16,12 +16,12 @@ const homepage = {
         link: "/welcome/welcome-to-multiversx",
         // icon: faBook,
       },
-      // {
-      //   title: "Start Building",
-      //   text: "Build your decentralized application in minutes.",
-      //   link: "/developers/overview",
-      //   icon: faHammer,
-      // },
+      {
+        title: "Sharding Architecture ",
+        text: "Intelchain Architecture of Sharding",
+        link: "/developers/overview",
+        // icon: faHammer,
+      },
       // {
       //   title: "Run a validator node",
       //   text: "Validate transactions, secure the network, and earn rewards.",
@@ -38,11 +38,11 @@ const homepage = {
         text: "Creating an ITC token is easy and fast.",
         link: "/developers/overview",
       },
-      // {
-      //   title: "Manage a Wallet",
-      //   text: "Create a wallet to send, receive and store MultiversX tokens.",
-      //   link: "/wallet/overview",
-      // },
+      {
+        title: "Sharding Architecture",
+        text: "Intelchain sharding architecture .",
+        link: "/developers/overview",
+      },
       // {
       //   title: "Integrate MultiversX",
       //   text: "Follow our guide to integrate exchanges, wallets, and other platforms.",
