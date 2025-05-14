@@ -310,110 +310,110 @@ const config = {
             from: "/sdk-and-tools/rest-api/rest-api",
             to: "/sdk-and-tools/rest-api",
           },
-          {
-            from: "/developers/developer-reference/wasm-annotations",
-            to: "/developers/developer-reference/sc-annotations",
-          },
-          {
-            from: "/developers/developer-reference/sc-contract-calls",
-            to: "/developers/transactions/tx-legacy-calls",
-          },
-          {
-            from: "/developers/developer-reference/wasm-modules",
-            to: "/developers/developer-reference/sc-modules",
-          },
-          {
-            from: "/developers/developer-reference/wasm-contract-calls",
-            to: "/developers/transactions/tx-legacy-calls",
-          },
-          {
-            from: "/developers/developer-reference/wasm-api-functions",
-            to: "/developers/developer-reference/sc-api-functions",
-          },
-          {
-            from: "/developers/developer-reference/rust-smart-contract-debugging",
-            to: "/developers/testing/sc-debugging",
-          },
-          {
-            from: "/developers/developer-reference/sc-debugging",
-            to: "/developers/testing/sc-debugging",
-          },
-          {
-            from: "/developers/developer-reference/rust-testing-framework",
-            to: "/developers/testing/rust/whitebox-legacy",
-          },
-          {
-            from: "/developers/developer-reference/rust-testing-framework-functions-reference",
-            to: "/developers/testing/rust/whitebox-legacy-functions-reference",
-          },
-          {
-            from: "/developers/developer-reference/smart-contract-build-reference",
-            to: "/developers/meta/sc-build-reference",
-          },
-          {
-            from: "/developers/developer-reference/sc-build-reference",
-            to: "/developers/meta/sc-build-reference",
-          },
-          {
-            from: "/developers/developer-reference/serialization-format",
-            to: "/developers/data/serialization-overview",
-          },
-          {
-            from: "/developers/developer-reference/random-numbers-in-smart-contracts",
-            to: "/developers/developer-reference/sc-random-numbers",
-          },
-          {
-            from: "/developers/developer-reference/sc-meta",
-            to: "/developers/meta/sc-meta",
-          },
-          {
-            from: "/developers/developer-reference/code-metadata",
-            to: "/developers/data/code-metadata",
-          },
-          {
-            from: "/developers/best-practices/multi-values",
-            to: "/developers/data/multi-values",
-          },
-          {
-            from: "/developers/scenario-reference/overview",
-            to: "/developers/testing/scenario/concept",
-          },
-          {
-            from: "/developers/scenario-reference/structure",
-            to: "/developers/testing/scenario/structure-json",
-          },
-          {
-            from: "/developers/scenario-reference/values-simple",
-            to: "/developers/testing/scenario/values-simple",
-          },
-          {
-            from: "/developers/scenario-reference/values-complex",
-            to: "/developers/testing/scenario/values-complex",
-          },
-          {
-            from: "/developers/scenario-reference/embed",
-            to: "/developers/testing/testing-in-go",
-          },
-          {
-            from: "/developers/mandos-reference/overview",
-            to: "/developers/testing/scenario/concept",
-          },
-          {
-            from: "/developers/mandos-reference/structure",
-            to: "/developers/testing/scenario/structure-json",
-          },
-          {
-            from: "/developers/mandos-reference/values-simple",
-            to: "/developers/testing/scenario/values-simple",
-          },
-          {
-            from: "/developers/mandos-reference/values-complex",
-            to: "/developers/testing/scenario/values-complex",
-          },
-          {
-            from: "/developers/mandos-reference/embed",
-            to: "/developers/testing/testing-in-go",
-          },
+          // {
+          //   from: "/developers/developer-reference/wasm-annotations",
+          //   to: "/developers/developer-reference/sc-annotations",
+          // },
+          // {
+          //   from: "/developers/developer-reference/sc-contract-calls",
+          //   to: "/developers/transactions/tx-legacy-calls",
+          // },
+          // {
+          //   from: "/developers/developer-reference/wasm-modules",
+          //   to: "/developers/developer-reference/sc-modules",
+          // },
+          // {
+          //   from: "/developers/developer-reference/wasm-contract-calls",
+          //   to: "/developers/transactions/tx-legacy-calls",
+          // },
+          // {
+          //   from: "/developers/developer-reference/wasm-api-functions",
+          //   to: "/developers/developer-reference/sc-api-functions",
+          // },
+          // {
+          //   from: "/developers/developer-reference/rust-smart-contract-debugging",
+          //   to: "/developers/testing/sc-debugging",
+          // },
+          // {
+          //   from: "/developers/developer-reference/sc-debugging",
+          //   to: "/developers/testing/sc-debugging",
+          // },
+          // {
+          //   from: "/developers/developer-reference/rust-testing-framework",
+          //   to: "/developers/testing/rust/whitebox-legacy",
+          // },
+          // {
+          //   from: "/developers/developer-reference/rust-testing-framework-functions-reference",
+          //   to: "/developers/testing/rust/whitebox-legacy-functions-reference",
+          // },
+          // {
+          //   from: "/developers/developer-reference/smart-contract-build-reference",
+          //   to: "/developers/meta/sc-build-reference",
+          // },
+          // {
+          //   from: "/developers/developer-reference/sc-build-reference",
+          //   to: "/developers/meta/sc-build-reference",
+          // },
+          // {
+          //   from: "/developers/developer-reference/serialization-format",
+          //   to: "/developers/data/serialization-overview",
+          // },
+          // {
+          //   from: "/developers/developer-reference/random-numbers-in-smart-contracts",
+          //   to: "/developers/developer-reference/sc-random-numbers",
+          // },
+          // {
+          //   from: "/developers/developer-reference/sc-meta",
+          //   to: "/developers/meta/sc-meta",
+          // },
+          // {
+          //   from: "/developers/developer-reference/code-metadata",
+          //   to: "/developers/data/code-metadata",
+          // },
+          // {
+          //   from: "/developers/best-practices/multi-values",
+          //   to: "/developers/data/multi-values",
+          // },
+          // {
+          //   from: "/developers/scenario-reference/overview",
+          //   to: "/developers/testing/scenario/concept",
+          // },
+          // {
+          //   from: "/developers/scenario-reference/structure",
+          //   to: "/developers/testing/scenario/structure-json",
+          // },
+          // {
+          //   from: "/developers/scenario-reference/values-simple",
+          //   to: "/developers/testing/scenario/values-simple",
+          // },
+          // {
+          //   from: "/developers/scenario-reference/values-complex",
+          //   to: "/developers/testing/scenario/values-complex",
+          // },
+          // {
+          //   from: "/developers/scenario-reference/embed",
+          //   to: "/developers/testing/testing-in-go",
+          // },
+          // {
+          //   from: "/developers/mandos-reference/overview",
+          //   to: "/developers/testing/scenario/concept",
+          // },
+          // {
+          //   from: "/developers/mandos-reference/structure",
+          //   to: "/developers/testing/scenario/structure-json",
+          // },
+          // {
+          //   from: "/developers/mandos-reference/values-simple",
+          //   to: "/developers/testing/scenario/values-simple",
+          // },
+          // {
+          //   from: "/developers/mandos-reference/values-complex",
+          //   to: "/developers/testing/scenario/values-complex",
+          // },
+          // {
+          //   from: "/developers/mandos-reference/embed",
+          //   to: "/developers/testing/testing-in-go",
+          // },
           {
             from: "/sdk-and-tools/erdjs",
             to: "/sdk-and-tools/sdk-js",
@@ -454,26 +454,26 @@ const config = {
             from: "/sdk-and-tools/sdk-py/deriving-the-wallet-pem-file",
             to: "/sdk-and-tools/sdk-py/mxpy-cli",
           },
-          {
-            from: "/developers/log-events/esdt-events",
-            to: "/developers/event-logs/esdt-events",
-          },
-          {
-            from: "/developers/log-events/execution-events",
-            to: "/developers/event-logs/execution-events",
-          },
-          {
-            from: "/developers/log-events/contract-call-events",
-            to: "/developers/event-logs/contract-call-events",
-          },
-          {
-            from: "/developers/log-events/contract-deploy-events",
-            to: "/developers/event-logs/contract-deploy-events",
-          },
-          {
-            from: "/developers/log-events/system-delegation-events",
-            to: "/developers/event-logs/system-delegation-events",
-          },
+          // {
+          //   from: "/developers/log-events/esdt-events",
+          //   to: "/developers/event-logs/esdt-events",
+          // },
+          // {
+          //   from: "/developers/log-events/execution-events",
+          //   to: "/developers/event-logs/execution-events",
+          // },
+          // {
+          //   from: "/developers/log-events/contract-call-events",
+          //   to: "/developers/event-logs/contract-call-events",
+          // },
+          // {
+          //   from: "/developers/log-events/contract-deploy-events",
+          //   to: "/developers/event-logs/contract-deploy-events",
+          // },
+          // {
+          //   from: "/developers/log-events/system-delegation-events",
+          //   to: "/developers/event-logs/system-delegation-events",
+          // },
         ],
         createRedirects(existingPath) {
           return undefined; // Return a falsy value: no redirect created
